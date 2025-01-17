@@ -10,6 +10,9 @@ namespace Platformer
     {
         public int coinsCounter = 0;
 
+        //tiempo predeterminado de efectos de trasición
+        public float defaultFadeTime = 3;
+
         public GameObject playerGameObject;
         private PlayerController player;
         public GameObject deathPlayerPrefab;
@@ -17,7 +20,21 @@ namespace Platformer
 
         private const float RELOAD_WAIT_TIME = 3;
 
-        void Start()
+    //definir variable estática del manager
+        public static GameManager gameManagerInstance;
+
+		private void Awake()
+		{
+      //crear la instancia en la función awake
+      if (gameManagerInstance == null)
+      {
+        gameManagerInstance = this;
+        DontDestroyOnLoad(gameObject);
+      }
+
+		}
+
+		void Start()
         {
             player = GameObject.Find("Player").GetComponent<PlayerController>();
         }
