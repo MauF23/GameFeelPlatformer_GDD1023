@@ -15,8 +15,7 @@ GameObject:
   - component: {fileID: 1449881804780183223}
   - component: {fileID: 2367412024886369351}
   - component: {fileID: 8675402344872846318}
-  - component: {fileID: 3927675533713231707}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -206,19 +205,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 0
---- !u!114 &3927675533713231707
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7873588928898685938}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ae33c1182c93a747915fa307f32be09, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHp: 0
+  deathTweenTime: 0.15
+  deathScale: {x: 0, y: 0, z: 0}
+  enemyDamageCollider: {fileID: 2367412024886369351}
 --- !u!1 &8544280819472823803
 GameObject:
   m_ObjectHideFlags: 0
@@ -228,7 +217,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3859352901256949638}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RayOrigin
   m_TagString: Untagged
   m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}

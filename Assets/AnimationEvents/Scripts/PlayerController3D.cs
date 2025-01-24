@@ -7,7 +7,8 @@ public class PlayerController3D : MonoBehaviour
 	private Vector3 movementVector;
     private Vector3 relativeToCameraDirection, relativeMovementVector;
     public float movementSpeed, rotationSpeed;
-    private bool canMove, canAttack;
+    private bool canMove;
+    private bool canAttack = true;
 
     private const float GROUND_SPHERE_RADIUS = 2;
 
