@@ -10,6 +10,7 @@ public class FadeImage : MonoBehaviour
 {
   public Image fadeImage;
   public int sceneToLoad;
+	public float fadeTime = 1;
   //private GameManager gameManager;
 
     void Start()
@@ -22,12 +23,12 @@ public class FadeImage : MonoBehaviour
   public void FadeIn()
   {
     //1 = opaco, 0 = transparente
-		fadeImage.DOFade(1, 3).OnComplete(ChangeScene);
+		fadeImage.DOFade(1, fadeTime).OnComplete(ChangeScene);
 	}
 
   public void FadeOut()
   {
-		fadeImage.DOFade(0, 3);
+		fadeImage.DOFade(0, fadeTime);
 	}
 
   public void ChangeScene()
