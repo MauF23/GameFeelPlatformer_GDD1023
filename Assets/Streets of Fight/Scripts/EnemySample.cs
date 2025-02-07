@@ -16,7 +16,7 @@ public class EnemySample : MonoBehaviour
 
 	void Start()
 	{
-		enemyPath.onSearchPath += OnTargetReached;
+		//enemyPath.onSearchPath += OnTargetReached;
 	}
 
 	void Update()

@@ -20,6 +20,12 @@ namespace Platformer
 		public Text coinText;
 		public CanvasGroup uiCanvasGroup;
 
+		[Header("Pause")]
+		public KeyCode pauseKey;
+		public CanvasGroup pauseCanvasGroup;
+		private float pauseMenuDisplayTime = 0.3f;
+		private bool paused = false;
+
 		private const float RELOAD_WAIT_TIME = 3;
 
 		//definir variable estática del manager
@@ -39,6 +45,14 @@ namespace Platformer
 		void Start()
 		{
 			player = GameObject.Find("Player").GetComponent<PlayerController>();
+		}
+
+		private void Update()
+		{
+			if (Input.GetKeyDown(pauseKey))
+			{
+				TogglePause(!paused);
+			}
 		}
 
 		public void GameOver()
@@ -61,6 +75,17 @@ namespace Platformer
 			float endCanvasValue = movementValue ? 1 : 0;
 			uiCanvasGroup.DOFade(endCanvasValue, 0.25f);
 			player.canMove = movementValue;
+		}
+
+		public void TogglePause(bool toggle)
+		{
+			
+			float pauseCanvasValue = toggle ? 1 : 0;
+			int timeScaleValue = toggle ? 0 : 1;
+
+			Time.timeScale = timeScaleValue;
+			pauseCanvasGroup.DOFade(pauseCanvasValue, pauseMenuDisplayTime);
+			paused = toggle;
 		}
 
 		IEnumerator ReloadLevelRoutine(float waitTime)
