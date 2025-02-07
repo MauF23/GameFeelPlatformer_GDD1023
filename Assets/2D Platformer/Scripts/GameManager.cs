@@ -31,6 +31,7 @@ namespace Platformer
 		//definir variable estática del manager
 		public static GameManager gameManagerInstance;
 
+
 		private void Awake()
 		{
 			//crear la instancia en la función awake
@@ -79,12 +80,11 @@ namespace Platformer
 
 		public void TogglePause(bool toggle)
 		{
-			
 			float pauseCanvasValue = toggle ? 1 : 0;
 			int timeScaleValue = toggle ? 0 : 1;
 
 			Time.timeScale = timeScaleValue;
-			pauseCanvasGroup.DOFade(pauseCanvasValue, pauseMenuDisplayTime);
+			pauseCanvasGroup.DOFade(pauseCanvasValue, 1).SetUpdate(true);
 			paused = toggle;
 		}
 

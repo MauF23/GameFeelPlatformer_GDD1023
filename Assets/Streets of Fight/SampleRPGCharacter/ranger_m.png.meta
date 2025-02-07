@@ -44,7 +44,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 0
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -139,12 +139,12 @@ TextureImporter:
       name: ranger_m_0
       rect:
         serializedVersion: 2
-        x: 3
+        x: 0
         y: 108
-        width: 28
-        height: 34
+        width: 32
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -160,12 +160,12 @@ TextureImporter:
       name: ranger_m_1
       rect:
         serializedVersion: 2
-        x: 35
-        y: 110
-        width: 28
-        height: 34
+        x: 32
+        y: 108
+        width: 32
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -181,12 +181,12 @@ TextureImporter:
       name: ranger_m_2
       rect:
         serializedVersion: 2
-        x: 69
+        x: 64
         y: 108
-        width: 26
-        height: 34
+        width: 32
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -199,78 +199,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ranger_m_3
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 72
-        width: 24
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f86760a716f808e4d90387942dfd72b4
-      internalID: 193174057
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ranger_m_4
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 74
-        width: 22
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f915b678165de134bbce92e6b0d31569
-      internalID: -13109322
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ranger_m_5
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 72
-        width: 22
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0ee32ea233be8b94eb37e0e0a5687c36
-      internalID: 1686531247
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: ranger_m_6
       rect:
         serializedVersion: 2
-        x: 3
+        x: 0
         y: 36
-        width: 28
-        height: 34
+        width: 32
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -286,12 +223,12 @@ TextureImporter:
       name: ranger_m_7
       rect:
         serializedVersion: 2
-        x: 35
-        y: 38
-        width: 28
-        height: 34
+        x: 32
+        y: 36
+        width: 32
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -307,12 +244,12 @@ TextureImporter:
       name: ranger_m_8
       rect:
         serializedVersion: 2
-        x: 69
+        x: 64
         y: 36
-        width: 26
-        height: 34
+        width: 32
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -328,12 +265,12 @@ TextureImporter:
       name: ranger_m_9
       rect:
         serializedVersion: 2
-        x: 9
+        x: 0
         y: 0
-        width: 22
-        height: 34
+        width: 32
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -349,12 +286,12 @@ TextureImporter:
       name: ranger_m_10
       rect:
         serializedVersion: 2
-        x: 41
-        y: 2
-        width: 22
-        height: 34
+        x: 32
+        y: 0
+        width: 32
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -370,12 +307,12 @@ TextureImporter:
       name: ranger_m_11
       rect:
         serializedVersion: 2
-        x: 71
+        x: 64
         y: 0
-        width: 24
-        height: 34
+        width: 32
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -383,6 +320,69 @@ TextureImporter:
       bones: []
       spriteID: 36d572ed7faf6f547a41adea698f598c
       internalID: -1728632771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ranger_m_Side1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f1b865a576bbe48a811a937dd37190
+      internalID: 1271138427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ranger_m_Side2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 72
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0109a9e68ef5ec24e944eeff291d9e29
+      internalID: 121134108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ranger_m_Side3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 72
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39b681cc5f3f6f4a8c6b4ebbdeed11b
+      internalID: 116712055
       vertices: []
       indices: 
       edges: []
@@ -403,13 +403,13 @@ TextureImporter:
       ranger_m_10: -945413337
       ranger_m_11: -1728632771
       ranger_m_2: 385537414
-      ranger_m_3: 193174057
-      ranger_m_4: -13109322
-      ranger_m_5: 1686531247
       ranger_m_6: -1429847075
       ranger_m_7: -1239285447
       ranger_m_8: -436436451
       ranger_m_9: 176930457
+      ranger_m_Side1: 1271138427
+      ranger_m_Side2: 121134108
+      ranger_m_Side3: 116712055
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
