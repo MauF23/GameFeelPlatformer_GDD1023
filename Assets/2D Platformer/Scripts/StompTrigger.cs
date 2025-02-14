@@ -21,7 +21,11 @@ public class StompTrigger : MonoBehaviour
 			hpEnemy.RemoveHp(hpEnemy.maxHp);
 			playerController?.Knockback(Vector2.up * bounceForce);
 
-			StopCoroutine(timeRoutine);
+			if (timeRoutine != null)
+			{
+				StopCoroutine(timeRoutine);
+			}
+
 			timeRoutine = StartCoroutine(FreezeFrameRoutine());
 		}
 	}

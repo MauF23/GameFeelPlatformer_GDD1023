@@ -41,6 +41,8 @@ public class HpPlayer : HpBase
 			.SetLoops(effectLoops, LoopType.Yoyo)
 			.OnStart(InvencibilityStart)
 			.OnComplete(InvencibilityEnd);
+
+		PostProcessingManager.instance.SetVignetteIntensity(0.5f);
 	}
 
 	protected override void Death()
